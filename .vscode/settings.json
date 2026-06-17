@@ -1,0 +1,7 @@
+{
+  "cmake.configureArgs": [
+    "-DOpenCL_INCLUDE_DIR=C:/Users/cojac/opencl/OpenCL-CLHPP/include",
+    "-DOpenCL_LIBRARY=C:/Program Files (x86)/Intel/oneAPI/compiler/2026.0/lib/OpenCL.lib"
+    "-DOpenCL_HEADERS=C:/Users/cojac/opencl/OpenCL-Headers"
+  ]
+}

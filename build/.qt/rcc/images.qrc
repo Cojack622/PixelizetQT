@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="forms/images/HelloMario.png">C:/Users/cojac/PixelQT/forms/images/HelloMario.png</file>
+  </qresource>
+</RCC>
+

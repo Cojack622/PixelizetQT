@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/cojac/PixelQT/build/cmake_install.cmake",
+		"C:/Users/cojac/PixelQT/build/Pixelizer/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

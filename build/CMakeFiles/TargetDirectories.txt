@@ -1,0 +1,16 @@
+C:/Users/cojac/PixelQT/build/CMakeFiles/Pixelizet.dir
+C:/Users/cojac/PixelQT/build/CMakeFiles/edit_cache.dir
+C:/Users/cojac/PixelQT/build/CMakeFiles/rebuild_cache.dir
+C:/Users/cojac/PixelQT/build/CMakeFiles/list_install_components.dir
+C:/Users/cojac/PixelQT/build/CMakeFiles/install.dir
+C:/Users/cojac/PixelQT/build/CMakeFiles/install/local.dir
+C:/Users/cojac/PixelQT/build/CMakeFiles/install/strip.dir
+C:/Users/cojac/PixelQT/build/CMakeFiles/Pixelizet_autogen_timestamp_deps.dir
+C:/Users/cojac/PixelQT/build/CMakeFiles/Pixelizet_autogen.dir
+C:/Users/cojac/PixelQT/build/Pixelizer/CMakeFiles/Pixelizer.dir
+C:/Users/cojac/PixelQT/build/Pixelizer/CMakeFiles/edit_cache.dir
+C:/Users/cojac/PixelQT/build/Pixelizer/CMakeFiles/rebuild_cache.dir
+C:/Users/cojac/PixelQT/build/Pixelizer/CMakeFiles/list_install_components.dir
+C:/Users/cojac/PixelQT/build/Pixelizer/CMakeFiles/install.dir
+C:/Users/cojac/PixelQT/build/Pixelizer/CMakeFiles/install/local.dir
+C:/Users/cojac/PixelQT/build/Pixelizer/CMakeFiles/install/strip.dir

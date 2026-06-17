@@ -1,0 +1,18 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "OpenCL",
+            "displayName": "Custom configure preset",
+            "description": "Sets Ninja generator, build and install directory",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "OpenCL_INCLUDE_DIR": "C:/Program Files (x86)/Intel/oneAPI/2026.0/include",
+                "OpenCL_LIBRARY": "C:/Program Files (x86)/Intel/oneAPI/2026.0/lib/OpenCL.lib"
+            }
+        }
+    ]
+}
