@@ -1,0 +1,4110 @@
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 56
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 78
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 92
+ Temp: 5.717919
+ Clusters: 6
+ Palette: 12
+
+Iter: 97
+ Temp: 4.002543
+ Clusters: 6
+ Palette: 12
+
+Iter: 119
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 16
+
+Iter: 148
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 16
+
+Iter: 192
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 16
+
+Iter: 198
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 16
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 56
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 78
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 92
+ Temp: 5.717919
+ Clusters: 6
+ Palette: 12
+
+Iter: 97
+ Temp: 4.002543
+ Clusters: 6
+ Palette: 12
+
+Iter: 124
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 129
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 132
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 134
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 55
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 78
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 92
+ Temp: 5.717919
+ Clusters: 6
+ Palette: 12
+
+Iter: 120
+ Temp: 4.002543
+ Clusters: 6
+ Palette: 12
+
+Iter: 145
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 160
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 164
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 166
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 40
+ Temp: 8.168456
+ Clusters: 3
+ Palette: 6
+
+Iter: 49
+ Temp: 5.717919
+ Clusters: 6
+ Palette: 12
+
+Iter: 75
+ Temp: 4.002543
+ Clusters: 6
+ Palette: 12
+
+Iter: 112
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 126
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 134
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 156
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 26
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 41
+ Temp: 8.168456
+ Clusters: 2
+ Palette: 4
+
+Iter: 66
+ Temp: 5.717919
+ Clusters: 4
+ Palette: 8
+
+Iter: 69
+ Temp: 4.002543
+ Clusters: 4
+ Palette: 8
+
+Iter: 93
+ Temp: 2.801780
+ Clusters: 6
+ Palette: 12
+
+Iter: 101
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 104
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 106
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 56
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 80
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 96
+ Temp: 5.717919
+ Clusters: 6
+ Palette: 12
+
+Iter: 116
+ Temp: 4.002543
+ Clusters: 6
+ Palette: 12
+
+Iter: 138
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 143
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 147
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 150
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 56
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 80
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 89
+ Temp: 5.717919
+ Clusters: 6
+ Palette: 6
+
+Iter: 94
+ Temp: 4.002543
+ Clusters: 6
+ Palette: 6
+
+Iter: 113
+ Temp: 2.801780
+ Clusters: 6
+ Palette: 6
+
+Iter: 116
+ Temp: 1.961246
+ Clusters: 6
+ Palette: 6
+
+Iter: 118
+ Temp: 1.372872
+ Clusters: 6
+ Palette: 6
+
+Iter: 120
+ Temp: 0.961011
+ Clusters: 6
+ Palette: 6
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 2
+ Palette: 4
+
+Iter: 26
+ Temp: 16.670318
+ Clusters: 4
+ Palette: 8
+
+Iter: 27
+ Temp: 11.669223
+ Clusters: 4
+ Palette: 8
+
+Iter: 54
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 61
+ Temp: 5.717919
+ Clusters: 4
+ Palette: 8
+
+Iter: 64
+ Temp: 4.002543
+ Clusters: 4
+ Palette: 8
+
+Iter: 84
+ Temp: 2.801780
+ Clusters: 4
+ Palette: 8
+
+Iter: 88
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 113
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 115
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 2
+ Palette: 4
+
+Iter: 26
+ Temp: 16.670318
+ Clusters: 4
+ Palette: 8
+
+Iter: 27
+ Temp: 11.669223
+ Clusters: 4
+ Palette: 8
+
+Iter: 54
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 61
+ Temp: 5.717919
+ Clusters: 4
+ Palette: 8
+
+Iter: 64
+ Temp: 4.002543
+ Clusters: 4
+ Palette: 8
+
+Iter: 84
+ Temp: 2.801780
+ Clusters: 4
+ Palette: 8
+
+Iter: 88
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 113
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 115
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 2
+ Palette: 4
+
+Iter: 26
+ Temp: 16.670318
+ Clusters: 4
+ Palette: 8
+
+Iter: 27
+ Temp: 11.669223
+ Clusters: 4
+ Palette: 8
+
+Iter: 28
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 45
+ Temp: 5.717919
+ Clusters: 4
+ Palette: 8
+
+Iter: 58
+ Temp: 4.002543
+ Clusters: 4
+ Palette: 8
+
+Iter: 65
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 75
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 81
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 99
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814741
+ Clusters: 2
+ Palette: 4
+
+Iter: 26
+ Temp: 16.670318
+ Clusters: 4
+ Palette: 8
+
+Iter: 27
+ Temp: 11.669223
+ Clusters: 4
+ Palette: 8
+
+Iter: 28
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 45
+ Temp: 5.717919
+ Clusters: 4
+ Palette: 8
+
+Iter: 58
+ Temp: 4.002543
+ Clusters: 4
+ Palette: 8
+
+Iter: 65
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 75
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 81
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 99
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 22
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 16.670318
+ Clusters: 2
+ Palette: 4
+
+Iter: 26
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 42
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 48
+ Temp: 5.717919
+ Clusters: 4
+ Palette: 8
+
+Iter: 52
+ Temp: 4.002543
+ Clusters: 4
+ Palette: 8
+
+Iter: 60
+ Temp: 2.801780
+ Clusters: 4
+ Palette: 8
+
+Iter: 73
+ Temp: 1.961246
+ Clusters: 4
+ Palette: 8
+
+Iter: 79
+ Temp: 1.372872
+ Clusters: 4
+ Palette: 8
+
+Iter: 96
+ Temp: 0.961011
+ Clusters: 4
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 22
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 45
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 55
+ Temp: 5.717919
+ Clusters: 8
+ Palette: 8
+
+Iter: 58
+ Temp: 4.002543
+ Clusters: 8
+ Palette: 8
+
+Iter: 67
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 125
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 133
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 136
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1376.446896
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 1101.157533
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 880.926039
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 704.740842
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 563.792682
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 451.034152
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 360.827327
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 288.661866
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 230.929496
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 184.743600
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 147.794882
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 118.235907
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 94.588727
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 75.670983
+ Clusters: 1
+ Palette: 2
+
+Iter: 29
+ Temp: 60.536787
+ Clusters: 1
+ Palette: 2
+
+Iter: 31
+ Temp: 48.429431
+ Clusters: 1
+ Palette: 2
+
+Iter: 33
+ Temp: 38.743545
+ Clusters: 1
+ Palette: 2
+
+Iter: 34
+ Temp: 30.994836
+ Clusters: 1
+ Palette: 2
+
+Iter: 35
+ Temp: 24.795870
+ Clusters: 1
+ Palette: 2
+
+Iter: 37
+ Temp: 19.836696
+ Clusters: 2
+ Palette: 4
+
+Iter: 39
+ Temp: 15.869357
+ Clusters: 2
+ Palette: 4
+
+Iter: 76
+ Temp: 12.695486
+ Clusters: 4
+ Palette: 8
+
+Iter: 82
+ Temp: 10.156389
+ Clusters: 4
+ Palette: 8
+
+Iter: 98
+ Temp: 8.125111
+ Clusters: 4
+ Palette: 8
+
+Iter: 103
+ Temp: 6.500089
+ Clusters: 4
+ Palette: 8
+
+Iter: 110
+ Temp: 5.200071
+ Clusters: 4
+ Palette: 8
+
+Iter: 113
+ Temp: 4.160057
+ Clusters: 4
+ Palette: 8
+
+Iter: 118
+ Temp: 3.328046
+ Clusters: 4
+ Palette: 8
+
+Iter: 140
+ Temp: 2.662437
+ Clusters: 4
+ Palette: 8
+
+Iter: 143
+ Temp: 2.129949
+ Clusters: 4
+ Palette: 8
+
+Iter: 145
+ Temp: 1.703959
+ Clusters: 4
+ Palette: 8
+
+Iter: 147
+ Temp: 1.363168
+ Clusters: 4
+ Palette: 8
+
+Iter: 156
+ Temp: 1.090534
+ Clusters: 4
+ Palette: 8
+
+Iter: 158
+ Temp: 0.872427
+ Clusters: 4
+ Palette: 8
+
+Iter: 1
+ Temp: 1548.502693
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 1393.652387
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 1254.287115
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 1128.858374
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 1015.972509
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 914.375234
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 822.937689
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 740.643901
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 666.579493
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 599.921528
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 539.929361
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 485.936412
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 437.342759
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 393.608473
+ Clusters: 1
+ Palette: 2
+
+Iter: 29
+ Temp: 354.247616
+ Clusters: 1
+ Palette: 2
+
+Iter: 31
+ Temp: 318.822846
+ Clusters: 1
+ Palette: 2
+
+Iter: 33
+ Temp: 286.940554
+ Clusters: 1
+ Palette: 2
+
+Iter: 35
+ Temp: 258.246491
+ Clusters: 1
+ Palette: 2
+
+Iter: 37
+ Temp: 232.421836
+ Clusters: 1
+ Palette: 2
+
+Iter: 39
+ Temp: 209.179647
+ Clusters: 1
+ Palette: 2
+
+Iter: 41
+ Temp: 188.261677
+ Clusters: 1
+ Palette: 2
+
+Iter: 43
+ Temp: 169.435505
+ Clusters: 1
+ Palette: 2
+
+Iter: 45
+ Temp: 152.491951
+ Clusters: 1
+ Palette: 2
+
+Iter: 47
+ Temp: 137.242752
+ Clusters: 1
+ Palette: 2
+
+Iter: 49
+ Temp: 123.518473
+ Clusters: 1
+ Palette: 2
+
+Iter: 51
+ Temp: 111.166623
+ Clusters: 1
+ Palette: 2
+
+Iter: 53
+ Temp: 100.049958
+ Clusters: 1
+ Palette: 2
+
+Iter: 55
+ Temp: 90.044960
+ Clusters: 1
+ Palette: 2
+
+Iter: 57
+ Temp: 81.040462
+ Clusters: 1
+ Palette: 2
+
+Iter: 59
+ Temp: 72.936414
+ Clusters: 1
+ Palette: 2
+
+Iter: 61
+ Temp: 65.642771
+ Clusters: 1
+ Palette: 2
+
+Iter: 63
+ Temp: 59.078492
+ Clusters: 1
+ Palette: 2
+
+Iter: 65
+ Temp: 53.170641
+ Clusters: 1
+ Palette: 2
+
+Iter: 67
+ Temp: 47.853576
+ Clusters: 1
+ Palette: 2
+
+Iter: 69
+ Temp: 43.068217
+ Clusters: 1
+ Palette: 2
+
+Iter: 71
+ Temp: 38.761394
+ Clusters: 1
+ Palette: 2
+
+Iter: 73
+ Temp: 34.885254
+ Clusters: 1
+ Palette: 2
+
+Iter: 74
+ Temp: 31.396728
+ Clusters: 1
+ Palette: 2
+
+Iter: 76
+ Temp: 28.257054
+ Clusters: 2
+ Palette: 4
+
+Iter: 78
+ Temp: 25.431348
+ Clusters: 2
+ Palette: 4
+
+Iter: 80
+ Temp: 22.888213
+ Clusters: 2
+ Palette: 4
+
+Iter: 82
+ Temp: 20.599391
+ Clusters: 2
+ Palette: 4
+
+Iter: 85
+ Temp: 18.539451
+ Clusters: 3
+ Palette: 6
+
+Iter: 88
+ Temp: 16.685506
+ Clusters: 4
+ Palette: 8
+
+Iter: 138
+ Temp: 15.016955
+ Clusters: 5
+ Palette: 10
+
+Iter: 148
+ Temp: 13.515259
+ Clusters: 5
+ Palette: 10
+
+Iter: 157
+ Temp: 12.163733
+ Clusters: 7
+ Palette: 14
+
+Iter: 175
+ Temp: 10.947359
+ Clusters: 8
+ Palette: 8
+
+Iter: 194
+ Temp: 9.852623
+ Clusters: 8
+ Palette: 8
+
+Iter: 201
+ Temp: 8.867360
+ Clusters: 8
+ Palette: 8
+
+Iter: 205
+ Temp: 7.980624
+ Clusters: 8
+ Palette: 8
+
+Iter: 208
+ Temp: 7.182562
+ Clusters: 8
+ Palette: 8
+
+Iter: 211
+ Temp: 6.464305
+ Clusters: 8
+ Palette: 8
+
+Iter: 213
+ Temp: 5.817875
+ Clusters: 8
+ Palette: 8
+
+Iter: 215
+ Temp: 5.236087
+ Clusters: 8
+ Palette: 8
+
+Iter: 217
+ Temp: 4.712478
+ Clusters: 8
+ Palette: 8
+
+Iter: 219
+ Temp: 4.241230
+ Clusters: 8
+ Palette: 8
+
+Iter: 232
+ Temp: 3.817107
+ Clusters: 8
+ Palette: 8
+
+Iter: 235
+ Temp: 3.435396
+ Clusters: 8
+ Palette: 8
+
+Iter: 238
+ Temp: 3.091857
+ Clusters: 8
+ Palette: 8
+
+Iter: 241
+ Temp: 2.782671
+ Clusters: 8
+ Palette: 8
+
+Iter: 259
+ Temp: 2.504404
+ Clusters: 8
+ Palette: 8
+
+Iter: 261
+ Temp: 2.253963
+ Clusters: 8
+ Palette: 8
+
+Iter: 265
+ Temp: 2.028567
+ Clusters: 8
+ Palette: 8
+
+Iter: 268
+ Temp: 1.825710
+ Clusters: 8
+ Palette: 8
+
+Iter: 270
+ Temp: 1.643139
+ Clusters: 8
+ Palette: 8
+
+Iter: 271
+ Temp: 1.478825
+ Clusters: 8
+ Palette: 8
+
+Iter: 272
+ Temp: 1.330943
+ Clusters: 8
+ Palette: 8
+
+Iter: 273
+ Temp: 1.197848
+ Clusters: 8
+ Palette: 8
+
+Iter: 274
+ Temp: 1.078063
+ Clusters: 8
+ Palette: 8
+
+Iter: 275
+ Temp: 0.970257
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1376.446896
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 1101.157533
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 880.926039
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 704.740842
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 563.792682
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 451.034152
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 360.827327
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 288.661866
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 230.929496
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 184.743600
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 147.794882
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 118.235907
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 94.588727
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 75.670983
+ Clusters: 1
+ Palette: 2
+
+Iter: 29
+ Temp: 60.536787
+ Clusters: 1
+ Palette: 2
+
+Iter: 31
+ Temp: 48.429431
+ Clusters: 1
+ Palette: 2
+
+Iter: 33
+ Temp: 38.743545
+ Clusters: 1
+ Palette: 2
+
+Iter: 35
+ Temp: 30.994836
+ Clusters: 2
+ Palette: 4
+
+Iter: 38
+ Temp: 24.795870
+ Clusters: 4
+ Palette: 8
+
+Iter: 41
+ Temp: 19.836696
+ Clusters: 4
+ Palette: 8
+
+Iter: 42
+ Temp: 15.869357
+ Clusters: 4
+ Palette: 8
+
+Iter: 43
+ Temp: 12.695486
+ Clusters: 4
+ Palette: 8
+
+Iter: 44
+ Temp: 10.156389
+ Clusters: 4
+ Palette: 8
+
+Iter: 69
+ Temp: 8.125111
+ Clusters: 4
+ Palette: 8
+
+Iter: 74
+ Temp: 6.500089
+ Clusters: 4
+ Palette: 8
+
+Iter: 77
+ Temp: 5.200071
+ Clusters: 4
+ Palette: 8
+
+Iter: 79
+ Temp: 4.160057
+ Clusters: 4
+ Palette: 8
+
+Iter: 111
+ Temp: 3.328046
+ Clusters: 4
+ Palette: 8
+
+Iter: 114
+ Temp: 2.662437
+ Clusters: 4
+ Palette: 8
+
+Iter: 117
+ Temp: 2.129949
+ Clusters: 4
+ Palette: 8
+
+Iter: 159
+ Temp: 1.703959
+ Clusters: 4
+ Palette: 8
+
+Iter: 161
+ Temp: 1.363168
+ Clusters: 4
+ Palette: 8
+
+Iter: 163
+ Temp: 1.090534
+ Clusters: 4
+ Palette: 8
+
+Iter: 165
+ Temp: 0.872427
+ Clusters: 4
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 22
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 50
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 68
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 75
+ Temp: 5.717919
+ Clusters: 8
+ Palette: 8
+
+Iter: 89
+ Temp: 4.002543
+ Clusters: 8
+ Palette: 8
+
+Iter: 95
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 114
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 118
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 121
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 22
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 50
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 68
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 75
+ Temp: 5.717919
+ Clusters: 8
+ Palette: 8
+
+Iter: 89
+ Temp: 4.002543
+ Clusters: 8
+ Palette: 8
+
+Iter: 95
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 114
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 118
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 121
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 22
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 50
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 68
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 75
+ Temp: 5.717919
+ Clusters: 8
+ Palette: 8
+
+Iter: 89
+ Temp: 4.002543
+ Clusters: 8
+ Palette: 8
+
+Iter: 95
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 114
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 118
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 121
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 22
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 50
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 68
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 75
+ Temp: 5.717919
+ Clusters: 8
+ Palette: 8
+
+Iter: 89
+ Temp: 4.002543
+ Clusters: 8
+ Palette: 8
+
+Iter: 95
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 114
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 118
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 121
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 22
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 50
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 68
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 75
+ Temp: 5.717919
+ Clusters: 8
+ Palette: 8
+
+Iter: 89
+ Temp: 4.002543
+ Clusters: 8
+ Palette: 8
+
+Iter: 95
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 114
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 118
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 121
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.390995
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.073682
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.151568
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.106090
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.174258
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.421977
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.695382
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.186766
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.430735
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.601513
+ Clusters: 1
+ Palette: 2
+
+Iter: 22
+ Temp: 34.021059
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 23.814741
+ Clusters: 1
+ Palette: 2
+
+Iter: 27
+ Temp: 16.670318
+ Clusters: 1
+ Palette: 2
+
+Iter: 50
+ Temp: 11.669223
+ Clusters: 2
+ Palette: 4
+
+Iter: 68
+ Temp: 8.168456
+ Clusters: 4
+ Palette: 8
+
+Iter: 75
+ Temp: 5.717919
+ Clusters: 8
+ Palette: 8
+
+Iter: 89
+ Temp: 4.002543
+ Clusters: 8
+ Palette: 8
+
+Iter: 95
+ Temp: 2.801780
+ Clusters: 8
+ Palette: 8
+
+Iter: 114
+ Temp: 1.961246
+ Clusters: 8
+ Palette: 8
+
+Iter: 118
+ Temp: 1.372872
+ Clusters: 8
+ Palette: 8
+
+Iter: 121
+ Temp: 0.961011
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 23.814416
+ Clusters: 1
+ Palette: 2
+
+Iter: 24
+ Temp: 16.670091
+ Clusters: 1
+ Palette: 2
+
+Iter: 32
+ Temp: 11.669064
+ Clusters: 2
+ Palette: 4
+
+Iter: 51
+ Temp: 8.168344
+ Clusters: 4
+ Palette: 8
+
+Iter: 97
+ Temp: 5.717841
+ Clusters: 7
+ Palette: 14
+
+Iter: 102
+ Temp: 4.002489
+ Clusters: 7
+ Palette: 14
+
+Iter: 126
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 130
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 135
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 137
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 0
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 2
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 4
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 6
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 8
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 10
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 16
+ Temp: 23.814416
+ Clusters: 2
+ Palette: 4
+
+Iter: 17
+ Temp: 16.670091
+ Clusters: 2
+ Palette: 4
+
+Iter: 28
+ Temp: 11.669064
+ Clusters: 3
+ Palette: 6
+
+Iter: 38
+ Temp: 8.168344
+ Clusters: 5
+ Palette: 10
+
+Iter: 63
+ Temp: 5.717841
+ Clusters: 7
+ Palette: 14
+
+Iter: 66
+ Temp: 4.002489
+ Clusters: 7
+ Palette: 14
+
+Iter: 75
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 79
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 89
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 91
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 0
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 2
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 4
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 6
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 8
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 10
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 16
+ Temp: 23.814416
+ Clusters: 2
+ Palette: 4
+
+Iter: 17
+ Temp: 16.670091
+ Clusters: 2
+ Palette: 4
+
+Iter: 28
+ Temp: 11.669064
+ Clusters: 3
+ Palette: 6
+
+Iter: 38
+ Temp: 8.168344
+ Clusters: 5
+ Palette: 10
+
+Iter: 63
+ Temp: 5.717841
+ Clusters: 7
+ Palette: 14
+
+Iter: 66
+ Temp: 4.002489
+ Clusters: 7
+ Palette: 14
+
+Iter: 75
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 79
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 89
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 91
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 0
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 2
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 4
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 6
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 8
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 10
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 23.814416
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 16.670091
+ Clusters: 2
+ Palette: 4
+
+Iter: 29
+ Temp: 11.669064
+ Clusters: 4
+ Palette: 8
+
+Iter: 48
+ Temp: 8.168344
+ Clusters: 7
+ Palette: 14
+
+Iter: 57
+ Temp: 5.717841
+ Clusters: 8
+ Palette: 8
+
+Iter: 60
+ Temp: 4.002489
+ Clusters: 8
+ Palette: 8
+
+Iter: 70
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 89
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 97
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 99
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 0
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 2
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 4
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 6
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 8
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 10
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 23.814416
+ Clusters: 1
+ Palette: 2
+
+Iter: 12
+ Temp: 16.670091
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 11.669064
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 8.168344
+ Clusters: 2
+ Palette: 4
+
+Iter: 44
+ Temp: 5.717841
+ Clusters: 4
+ Palette: 8
+
+Iter: 86
+ Temp: 4.002489
+ Clusters: 7
+ Palette: 14
+
+Iter: 102
+ Temp: 2.801742
+ Clusters: 7
+ Palette: 14
+
+Iter: 128
+ Temp: 1.961219
+ Clusters: 7
+ Palette: 14
+
+Iter: 136
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 138
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 0
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 2
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 4
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 6
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 8
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 10
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 23.814416
+ Clusters: 1
+ Palette: 2
+
+Iter: 22
+ Temp: 16.670091
+ Clusters: 2
+ Palette: 4
+
+Iter: 42
+ Temp: 11.669064
+ Clusters: 4
+ Palette: 8
+
+Iter: 54
+ Temp: 8.168344
+ Clusters: 8
+ Palette: 8
+
+Iter: 61
+ Temp: 5.717841
+ Clusters: 8
+ Palette: 8
+
+Iter: 64
+ Temp: 4.002489
+ Clusters: 8
+ Palette: 8
+
+Iter: 66
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 97
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 100
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 103
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 18
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 20
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 23.814416
+ Clusters: 1
+ Palette: 2
+
+Iter: 30
+ Temp: 16.670091
+ Clusters: 2
+ Palette: 4
+
+Iter: 48
+ Temp: 11.669064
+ Clusters: 4
+ Palette: 8
+
+Iter: 66
+ Temp: 8.168344
+ Clusters: 7
+ Palette: 14
+
+Iter: 76
+ Temp: 5.717841
+ Clusters: 8
+ Palette: 8
+
+Iter: 78
+ Temp: 4.002489
+ Clusters: 8
+ Palette: 8
+
+Iter: 80
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 87
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 90
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 108
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 18
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 25
+ Temp: 23.814416
+ Clusters: 2
+ Palette: 4
+
+Iter: 26
+ Temp: 16.670091
+ Clusters: 2
+ Palette: 4
+
+Iter: 44
+ Temp: 11.669064
+ Clusters: 4
+ Palette: 8
+
+Iter: 70
+ Temp: 8.168344
+ Clusters: 7
+ Palette: 14
+
+Iter: 81
+ Temp: 5.717841
+ Clusters: 8
+ Palette: 8
+
+Iter: 84
+ Temp: 4.002489
+ Clusters: 8
+ Palette: 8
+
+Iter: 87
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 94
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 101
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 105
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 0
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 2
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 4
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 6
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 8
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 10
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 23.814416
+ Clusters: 1
+ Palette: 2
+
+Iter: 20
+ Temp: 16.670091
+ Clusters: 2
+ Palette: 4
+
+Iter: 38
+ Temp: 11.669064
+ Clusters: 4
+ Palette: 8
+
+Iter: 59
+ Temp: 8.168344
+ Clusters: 7
+ Palette: 14
+
+Iter: 67
+ Temp: 5.717841
+ Clusters: 8
+ Palette: 8
+
+Iter: 69
+ Temp: 4.002489
+ Clusters: 8
+ Palette: 8
+
+Iter: 71
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 79
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 83
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 85
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 0
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 2
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 4
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 6
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 8
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 10
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 23.814416
+ Clusters: 1
+ Palette: 2
+
+Iter: 23
+ Temp: 16.670091
+ Clusters: 2
+ Palette: 4
+
+Iter: 42
+ Temp: 11.669064
+ Clusters: 4
+ Palette: 8
+
+Iter: 71
+ Temp: 8.168344
+ Clusters: 7
+ Palette: 14
+
+Iter: 83
+ Temp: 5.717841
+ Clusters: 8
+ Palette: 8
+
+Iter: 86
+ Temp: 4.002489
+ Clusters: 8
+ Palette: 8
+
+Iter: 88
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 103
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 108
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 119
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 0
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 1
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 2
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 4
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 6
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 8
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 10
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 23.814416
+ Clusters: 1
+ Palette: 2
+
+Iter: 12
+ Temp: 16.670091
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 11.669064
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 8.168344
+ Clusters: 2
+ Palette: 4
+
+Iter: 38
+ Temp: 5.717841
+ Clusters: 4
+ Palette: 8
+
+Iter: 51
+ Temp: 4.002489
+ Clusters: 6
+ Palette: 12
+
+Iter: 55
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 61
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 63
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 72
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8
+
+Iter: 1
+ Temp: 1204.374589
+ Clusters: 1
+ Palette: 2
+
+Iter: 3
+ Temp: 843.062198
+ Clusters: 1
+ Palette: 2
+
+Iter: 5
+ Temp: 590.143528
+ Clusters: 1
+ Palette: 2
+
+Iter: 7
+ Temp: 413.100463
+ Clusters: 1
+ Palette: 2
+
+Iter: 9
+ Temp: 289.170319
+ Clusters: 1
+ Palette: 2
+
+Iter: 11
+ Temp: 202.419220
+ Clusters: 1
+ Palette: 2
+
+Iter: 13
+ Temp: 141.693452
+ Clusters: 1
+ Palette: 2
+
+Iter: 15
+ Temp: 99.185414
+ Clusters: 1
+ Palette: 2
+
+Iter: 17
+ Temp: 69.429789
+ Clusters: 1
+ Palette: 2
+
+Iter: 19
+ Temp: 48.600851
+ Clusters: 1
+ Palette: 2
+
+Iter: 20
+ Temp: 34.020595
+ Clusters: 1
+ Palette: 2
+
+Iter: 21
+ Temp: 23.814416
+ Clusters: 1
+ Palette: 2
+
+Iter: 33
+ Temp: 16.670091
+ Clusters: 2
+ Palette: 4
+
+Iter: 52
+ Temp: 11.669064
+ Clusters: 4
+ Palette: 8
+
+Iter: 80
+ Temp: 8.168344
+ Clusters: 7
+ Palette: 14
+
+Iter: 92
+ Temp: 5.717841
+ Clusters: 8
+ Palette: 8
+
+Iter: 95
+ Temp: 4.002489
+ Clusters: 8
+ Palette: 8
+
+Iter: 97
+ Temp: 2.801742
+ Clusters: 8
+ Palette: 8
+
+Iter: 112
+ Temp: 1.961219
+ Clusters: 8
+ Palette: 8
+
+Iter: 116
+ Temp: 1.372854
+ Clusters: 8
+ Palette: 8
+
+Iter: 124
+ Temp: 0.960997
+ Clusters: 8
+ Palette: 8

@@ -1,0 +1,34 @@
+# Ignore everything by default
+/*
+
+# Allow only specific folders
+!/forms/
+!/include/
+!/Pixelizer/
+!/src/
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+*.ico
+*.raw
+*.heic
+*.heif
+*.avif
+*.psd
+*.ai
+*.eps
+
+# VSCode project files
+.vscode/
+*.code-workspace
+
+!CMakeLists.txt
+!/Pixelizer/CMakeLists.txt

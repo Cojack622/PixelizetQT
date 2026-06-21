@@ -47,21 +47,23 @@ struct PIX_EXPORT PixelizationSettings {
 
     // Optimization Constants
     size_t PixelSearchDiameter = 15;
-    size_t MaxLargeDimensionInput = 1000;
+    size_t MaxLargeDimensionInput = 4000;
 
     // Annealing Constants
-    float Alpha = 0.7;
+    float Alpha = 0.7f;
     float Beta = 1.1;
-    float PaletteSplitEpsilon = 2.0f;
-    float ClusterSplitEpsilon = 1.5f;
+    float PaletteSplitEpsilon = 1.0f;
+    float ClusterSplitEpsilon = 0.8f;
+    float ClusterPerturbEpsilon = 0.75f;
     size_t ColorDistanceWeight = 45;
     double FinalTemp = 1.0;
 
     float InitialTempScaleFactor = 1.0f;
+    float InitialTempIncreaseFactor = 1.1f;
 
     // Bilateral Filter Constants
-    size_t BilateralFilterDiameter = 1;
-    size_t BilateralFilterAlpha = 10;
+    size_t BilateralFilterDiameter = 3;
+    size_t BilateralFilterAlpha = 15;
 
 };
 
@@ -182,7 +184,7 @@ class PaletteColor {
         }
 
         void perturb(cv::Vec3d direction, double mod){
-            color += direction * mod;
+            color += direction * _hyperparameters.ClusterPerturbEpsilon * mod;
         }
 
         void updateWeight(std::vector<SuperPixel>& sPixels, size_t clusterIdx, double probSuperPixel){
@@ -195,13 +197,22 @@ class PaletteColor {
 
         cv::PCA createPCA() {
             
-            cv::Mat data(associatedPixels.size(), NUM_COLORS, CV_32F);
-            for(size_t i = 0; i < associatedPixels.size(); ++i){
+            int size = associatedPixels.size();
+            if(size <= 0){
+                std::cout << "Error: No associated pixels to create PCA." << std::endl;
+            }
+            cv::Mat data(size, NUM_COLORS, CV_32F);
+            for(size_t i = 0; i < associatedPixels.size(); i++){
                 data.at<float>(i, 0) = associatedPixels[i].color[0];
                 data.at<float>(i, 1) = associatedPixels[i].color[1];
                 data.at<float>(i, 2) = associatedPixels[i].color[2];
             }
-            cv::PCA pca(data, cv::Mat(), cv::PCA::DATA_AS_ROW, 3);
+            cv::Mat mean(1, NUM_COLORS, CV_32F);
+            mean.at<float>(0, 0) = color[0];
+            mean.at<float>(0, 1) = color[1];
+            mean.at<float>(0, 2) = color[2];
+
+            cv::PCA pca(data, mean, cv::PCA::DATA_AS_ROW, 3);
             return pca;
         }
 
@@ -273,13 +284,14 @@ void RefinePalette(std::vector<cv::Vec3f>& oldPalette);
 double PaletteChange(std::vector<cv::Vec3f>& oldPalette);
 void MergeSubClusters();
 void PaletteExpand();
+void PerturbSubClusters(Cluster& cluster);
  
 // API Functions
 PIX_EXPORT PixelizationOutput PixelizeImage(PixelizationInputSettings inputSettings, PixelizationSettings hyperparameters = _hyperparameters);
 PIX_EXPORT void NewSuperPixelOutputSubrscribe(OnTemperatureDecrease decreaseEvent);
 
 // Output Functions
-cv::Mat SuperPixelOutput();
+cv::Mat SuperPixelOutput(uint scaleFactor, bool useBGR);
 
 // System-Specific Functions
 void InitializeParallelization();

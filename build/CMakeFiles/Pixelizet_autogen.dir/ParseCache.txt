@@ -1009,6 +1009,6 @@ C:/Users/cojac/PixelQT/include/mainwindow.h
  mdp:C:/Users/cojac/opencv/modules/video/include/opencv2/video/tracking.hpp
  mdp:C:/Users/cojac/opencv/modules/videoio/include/opencv2/videoio.hpp
 C:/Users/cojac/PixelQT/src/PixelizeWorker.cpp
-C:/Users/cojac/PixelQT/src/main.cpp
 C:/Users/cojac/PixelQT/src/mainwindow.cpp
  uic:ui_mainwindow.h
+C:/Users/cojac/PixelQT/src/main.cpp

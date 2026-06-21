@@ -8,7 +8,7 @@
 
 
 QImage CreateQImage(uchar** imgData, uint width, uint height, const char* imgFormat) {
-    return QImage(*imgData, width, height, width*3, QImage::Format_RGB888);
+    return QImage(*imgData, width, height, width*3, QImage::Format_BGR888);
 }
 
 void ChangeDisplayImage(uchar** imgData, uint width, uint height, const char* imgFormat) {

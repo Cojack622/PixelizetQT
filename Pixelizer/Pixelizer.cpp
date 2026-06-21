@@ -1,8 +1,49 @@
 #include "Pixelizer.hpp"
+#include "PixelizerLog.hpp"
+#include <iostream>
 
+
+#include <random>
 //TODO 
 //Maintain an SuperPixel averages image so we dont have to calcuate it in loop
 namespace Pixelizer {
+
+
+    inline void DrawSuperPixels() {
+        cv::Mat output = cv::Mat(_pixelizationContext.sourceMat.rows, _pixelizationContext.sourceMat.rows, CV_8UC3);
+
+        std::random_device rd;
+    
+    // 2. Initialize the standard mersenne_twister_engine with the seed
+        std::mt19937 gen(rd());
+    
+    // 3. Define the range [inclusive, inclusive]
+        std::uniform_int_distribution<int> distrib(0, 255);
+
+    // 4. Generate the random number
+
+        for(const SuperPixel& sPixel : _pixelizationContext.superPixels){
+            cv::Vec3b color = cv::Vec3b(distrib(gen), distrib(gen), distrib(gen));
+
+            if(sPixel.assosciatedPixels.empty()) {
+                continue;
+            }
+
+            for(const Pixel& pix : sPixel.assosciatedPixels){
+                output.at<cv::Vec3b>((int)pix.position.x, (int)pix.position.y) = color;
+            }
+
+        }
+
+
+        cv::Mat scaledOutput(_pixelizationContext.sourceMat.rows / 2, _pixelizationContext.sourceMat.cols / 2, CV_8UC3);
+        cv::resize(output, scaledOutput, scaledOutput.size(), 0, 0, cv::INTER_NEAREST);
+
+        cv::imshow("SuperPixels", scaledOutput);
+        cv::waitKey(0);
+    }
+
+
     #define DATA_TYPE CV_32FC3
     inline cv::Mat BilateralFilterMat(){
         int H = _inputSettings.hOut, W = _inputSettings.wOut;
@@ -165,12 +206,21 @@ namespace Pixelizer {
                 cv::Point2i pixelPosition(c, r);
 
                 Pixel pixel(pixelColor, pixelPosition);
-                (_pixelizationContext.superPixels)[currentIndex].assosciatedPixels.push_back(pixel);
-                (_pixelizationContext.superPixels)[currentIndex].addToAvgColor(pixelColor);
+                (_pixelizationContext.superPixels)[currentIndex].addPixel(std::move(pixel));
+                //(_pixelizationContext.superPixels)[currentIndex].addToAvgColor(pixelColor);
 
                 firstColor.associatedPixels.push_back(pixel);
             }
         }
+
+        // for(const SuperPixel& sPixel : _pixelizationContext.superPixels){
+
+        //     if(sPixel.assosciatedPixels.empty()) {
+        //         continue;
+        //     }
+        // }
+
+        firstColor.calculateCenter();
 
         for (int i = 0; i < W * H; i++){
             (_pixelizationContext.superPixels)[i].setAverages();
@@ -184,8 +234,7 @@ namespace Pixelizer {
     inline double InitializePixelizationAlgorithm(){
         PaletteColor criticalCluster = InitializeSuperPixels();
 
-        criticalCluster.setWeight(0.5f);
-        criticalCluster.calculateCenter();
+        criticalCluster.setWeight(1.0f);
 
         cv::PCA wholeImagePCA = criticalCluster.createPCA();
         PaletteColor criticalClusterCopy(criticalCluster);
@@ -198,7 +247,7 @@ namespace Pixelizer {
         criticalCluster.perturb(principleAxis, 1);
         criticalClusterCopy.perturb(principleAxis, -1);
 
-        _pixelizationContext.palette.reserve(_inputSettings.paletteSize * sizeof(PaletteColor));
+        _pixelizationContext.palette.reserve(_inputSettings.paletteSize*2);
 
 
         _pixelizationContext.palette.push_back(criticalCluster);
@@ -211,7 +260,8 @@ namespace Pixelizer {
         c1.sub2Index = 1;
         _pixelizationContext.clusters.push_back(c1);
 
-        return wholeImagePCA.eigenvalues.at<float>(0) / _hyperparameters.InitialTempScaleFactor;
+        double tc = _hyperparameters.InitialTempIncreaseFactor * wholeImagePCA.eigenvalues.at<float>(0);
+        return 2.0 * tc /*/ _hyperparameters.InitialTempScaleFactor*/;
     }
 
     inline double SuperPixelMapsClusterProbability(SuperPixel& sPixel, PaletteColor& color, cv::Vec3f bilateralColor){
@@ -269,6 +319,8 @@ namespace Pixelizer {
         for (int i = 0; i < _pixelizationContext.palette.size(); i++){
             palette[i].updateWeight(_pixelizationContext.superPixels, i, 1.0 / numSuperPixels);
         }
+
+
     }
 
     inline std::vector<cv::Point2i> GenerateSearchVector() {
@@ -280,7 +332,6 @@ namespace Pixelizer {
                 if (i != 0 || j != 0) {
                     regions.push_back(cv::Point2i(i, j));
                 }
-
             }
         }
 
@@ -339,21 +390,49 @@ namespace Pixelizer {
             PaletteColor finalColor = palette[cluster.sub1Index];
 
             finalColor.setWeight(finalColor.getWeight() + palette[cluster.sub2Index].getWeight());
+            
+            finalColor.setColor((finalColor.getColor() + palette[cluster.sub2Index].getColor()) / 2.0);
+            //finalColor += palette[cluster.sub2Index].getColor();
+            //finalColor /= 2.0;
             finalPalette.push_back(finalColor);
         }
 
         _pixelizationContext.palette = std::move(finalPalette);
     }
 
+
+    inline void PerturbSubClusters(Cluster& cluster) {
+        auto& palette = _pixelizationContext.palette;
+
+        PaletteColor& ck1 = palette[cluster.sub1Index];
+        PaletteColor& ck2 = palette[cluster.sub2Index];
+
+        cv::PCA pcaAnalysis = ck1.createPCA();
+        cv::Vec3f perturbDir = cv::Vec3f(
+            pcaAnalysis.eigenvectors.at<float>(0,0),
+            pcaAnalysis.eigenvectors.at<float>(0,1), 
+            pcaAnalysis.eigenvectors.at<float>(0,2)
+        );
+                
+        palette[cluster.sub1Index].perturb(perturbDir, 1);
+        palette[cluster.sub2Index].perturb(perturbDir, -1);
+    }
+    
+    int itCounter = 0;
+
+    //int PalExpCallsSinceLast = 0;
     inline void PaletteExpand() {
+
+        int i = itCounter;
         int size = _pixelizationContext.clusters.size();
 
         auto& palette = _pixelizationContext.palette;
         auto& clusters = _pixelizationContext.clusters;
 
+        //PalExpCallsSinceLast++;
+        //itCounter++;
         for (int c = 0; c < size; c++) {
             if(clusters.size() == _inputSettings.paletteSize){
-                MergeSubClusters();
                 break;
             }
 
@@ -362,7 +441,18 @@ namespace Pixelizer {
             PaletteColor& ck2 = palette[cluster.sub2Index];
 
             double split = ColorDifference(ck1.getColor(), ck2.getColor());
+
+
+            // P :: [x, x, c1, x, x, c2, c11, c22]
+            // C :: [(2, 5)]
+
+            // oC :: (2,6)
+            // nC :: (5,7)
+            // if(PalExpCallsSinceLast > 30){
+            //     std::cout<<"Palette expansion called more than 30 times since last merge"<<std::endl;
+            // }
             if(split > _hyperparameters.ClusterSplitEpsilon){
+                // New cluster, representing the 2nd index of the split cluster
                 Cluster newCluster;
                 newCluster.sub1Index = cluster.sub2Index;
 
@@ -387,10 +477,17 @@ namespace Pixelizer {
                 }
 
 
-                ck1.setWeight(ck1.getWeight() / 2.0);
+                if(ck1.associatedPixels.empty() || ck2.associatedPixels.empty()){
+                    std::cout << "Error: One or both clusters are empty." << std::endl;
+                    int size1 = ck1.associatedPixels.size();
+                    int size2 = ck2.associatedPixels.size();
+                    std::cout << "Sizes: " << size1 << ", " << size2 << std::endl;
+                    return;
+                }
+
+
+                //ck1.setWeight(ck1.getWeight() / 2.0);
                 PaletteColor ck1Copy(ck1);
-                std::cout << &ck1 << " = ck1 address\n";
-                std::cout << &ck1Copy << " = ck1Copy address\n";
                 palette.push_back(ck1Copy);
 
                 
@@ -399,37 +496,39 @@ namespace Pixelizer {
 
                 //Must redefine ck2 since palette may have reallocated when pushing back ck1Copy
                 PaletteColor& ck2 = palette[newCluster.sub1Index];
-                ck2.setWeight(ck2.getWeight() / 2.0);
+                //ck2.setWeight(ck2.getWeight() / 2.0);
                 PaletteColor ck2Copy(ck2);
                 palette.push_back(ck2Copy);
 
                 newCluster.sub2Index = palette.size() - 1;
                 newCluster.color = ck2.getColor();
 
+
+                //NEED either a call to calculate the center of the new clusters or a way to update their weights
+                ck1.calculateCenter();
+                ck2.calculateCenter();
+
+
+                //Perturb the 2 new clusters
+                PerturbSubClusters(cluster);
+                PerturbSubClusters(newCluster);
+
                 clusters.push_back(newCluster);
-            }
-
-            //New size
-            int clusterSize = clusters.size();
-            for (int c = 0; c < clusterSize; c++) {
-                Cluster& cluster = clusters[c];
-                PaletteColor& ck1 = palette[cluster.sub1Index];
-                PaletteColor& ck2 = palette[cluster.sub2Index];
-
-                if(ck1.associatedPixels.size() > 0){
-                    cv::PCA pcaAnalysis = ck1.createPCA();
-                    cv::Vec3f perturbDir = cv::Vec3f( pcaAnalysis.eigenvectors.at<float>(0,0),
-                    pcaAnalysis.eigenvectors.at<float>(0,1), 
-                    pcaAnalysis.eigenvectors.at<float>(0,2));
-
-                    ck1.perturb(perturbDir, -1);
-                    ck2.perturb(perturbDir, 1);
+                
+                if(clusters.size() == _inputSettings.paletteSize){
+                    MergeSubClusters();
                 }
+                //PalExpCallsSinceLast = 0;
             }
+            else{
+                PerturbSubClusters(cluster);
+            }
+
         }
+
     }
 
-    inline cv::Mat SuperPixelOutput(){
+    inline cv::Mat SuperPixelOutput(uint scaleFactor = 1, bool useBGR = true){
         //float beta = 1.1f;
         cv::Mat labOutput(_inputSettings.hOut, _inputSettings.wOut, CV_8UC3);
 
@@ -444,14 +543,42 @@ namespace Pixelizer {
             }
         }
 
-        cv::Mat rgbOutput(_inputSettings.hOut, _inputSettings.wOut, CV_8UC3);
-        cv::cvtColor(labOutput, rgbOutput, cv::COLOR_Lab2BGR);
+        cv::Mat scaledOutput(_inputSettings.hOut * scaleFactor, _inputSettings.wOut * scaleFactor, CV_8UC3);
+        cv::resize(labOutput, scaledOutput, scaledOutput.size(), 0, 0, cv::INTER_NEAREST);
 
+        cv::Mat rgbOutput(_inputSettings.hOut, _inputSettings.wOut, CV_8UC3);
+        cv::cvtColor(scaledOutput, rgbOutput, cv::COLOR_Lab2BGR);
+
+        scaledOutput.release();
         labOutput.release();
+
 
         return rgbOutput;
     }
 
+    bool VerifyPaletteWeightsUniform() {
+        double sum = 0.0;
+        for(const PaletteColor& color : _pixelizationContext.palette){
+            sum += color.getWeight();
+        }
+        return (sum > 0.99 && sum < 1.01);
+    }
+
+    bool VerifyPaletteProbabilitiesUniform(){
+        for(SuperPixel& sPixel : _pixelizationContext.superPixels){
+
+            double u = 0.0;
+            for (double prob : sPixel.clusterProbabilities) {
+                u += prob;
+            }
+
+            if(u < 0.99 || u > 1.01){
+                return false;
+            }
+        }
+        return true;
+    }
+    
     PIX_EXPORT PixelizationOutput PixelizeImage(PixelizationInputSettings inputSettings, PixelizationSettings hyperparameters) {
 
         if(_pixelizationContext.Initialized){
@@ -459,6 +586,8 @@ namespace Pixelizer {
             out.pixelizationSuccess = -1;
             return out;
         }
+
+        //PixLogger logger("C:/Users/cojac/PixelQT/output/log.txt");
 
 
         _pixelizationContext.Initialized = true;
@@ -479,6 +608,8 @@ namespace Pixelizer {
         std::vector<cv::Point2f> newPoints;
         std::vector<cv::Vec3f> oldColors;
 
+
+        InitializeParallelization();
         while (_pixelizationContext.temp > _hyperparameters.FinalTemp) {
 
             if(newPoints.size() != 0) {
@@ -497,16 +628,35 @@ namespace Pixelizer {
             double paletteChange = PaletteChange(oldColors);
 
             if(paletteChange < _hyperparameters.PaletteSplitEpsilon){
+
+                //DrawSuperPixels();
+                
                 _pixelizationContext.temp *= _hyperparameters.Alpha;
 
-                if(_pixelizationContext.palette.size() < _inputSettings.paletteSize){
+
+                std::ofstream logFile("C:/Users/cojac/PixelQT/output/log.txt", std::ios_base::app);
+                if (!logFile.is_open()) {
+                    throw std::runtime_error("Failed to open log file: C:/Users/cojac/PixelQT/output/log.txt");
+                }
+                std::string logMessage = "\nIter: " + std::to_string(itCounter) 
+                + "\n Temp: " + std::to_string(_pixelizationContext.temp)
+                + "\n Clusters: " + std::to_string(_pixelizationContext.clusters.size())
+                + "\n Palette: " + std::to_string(_pixelizationContext.palette.size());
+
+                logFile << logMessage << std::endl;
+
+                logFile.flush();
+                logFile.close();
+                //logger.Log(logMessage);
+
+                if(_pixelizationContext.clusters.size() < _inputSettings.paletteSize){
                     PaletteExpand();
                 }
 
-
                 // Function Callback
                 if (_pixelizationContext.TempDecreaseEvent != nullptr) {
-                    cv::Mat tempOut = SuperPixelOutput();
+                    #define SCALE_FACTOR 10
+                    cv::Mat tempOut = SuperPixelOutput(SCALE_FACTOR);
                     //cv::imwrite("C:/Users/cojac/PixelQT/output/outputLarge.png", tempOut);
 
                     //std::cout << "Wrote to file\n";
@@ -515,9 +665,29 @@ namespace Pixelizer {
                     tempOut.release();
                 }
             }
+            itCounter++;
         }
 
+
+        // if(_pixelizationContext.clusters.size() < _inputSettings.paletteSize){
+        //     MergeSubClusters();
+        //     CalculateProbabilities();
+        //     #define SCALE_FACTOR 10
+        //     cv::Mat tempOut = SuperPixelOutput(SCALE_FACTOR);
+
+        //     _pixelizationContext.TempDecreaseEvent(&tempOut.data, tempOut.cols, tempOut.rows, "RGB");
+        //     tempOut.release();
+        // }
+        size_t numClusters = _pixelizationContext.clusters.size();
+        size_t numColors = _pixelizationContext.palette.size();
+
+        int itCount = itCounter;
+
         _pixelizationContext.Initialized = false;
+
+        DrawSuperPixels();
+
+
 
         _pixelizationContext.bilateralMat.release();
         _pixelizationContext.sourceMat.release();

@@ -2,6 +2,7 @@
 set(PIXELIZER_SOURCES
     "${CMAKE_CURRENT_SOURCE_DIR}/Pixelizer.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/Pixelizer.hpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/PixelizerLog.hpp"
 )
 
 #list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")

@@ -5,6 +5,9 @@
 #include <fstream>
 #include <optional>
 
+
+#include <unordered_set>
+
 namespace Pixelizer { 
 
     // Not a fan of using "using namespace" but expansion of CL macros fails 
@@ -43,6 +46,10 @@ namespace Pixelizer {
             sp.clearPixels();
         }
 
+
+        //std::unordered_set<uint> uniqueAssociations(associations.begin(), associations.end());
+        //size_t uniqueCount = uniqueAssociations.size();
+
         for(size_t i = 0; i < associations.size(); i++) {
             Pixel p( 
                 *(_pixelizationContext.sourceMat.ptr<cv::Vec3f>(i / _pixelizationContext.sourceMat.cols, i % _pixelizationContext.sourceMat.cols)),
@@ -50,6 +57,43 @@ namespace Pixelizer {
             );
             _pixelizationContext.superPixels[associations[i]].addPixel(std::move(p));
         }
+
+        for(SuperPixel& sp : _pixelizationContext.superPixels) {
+            sp.setAverages();
+            //int siz = sp.assosciatedPixels.size();
+            //std::cout << "SuperPixel " << &sp - _pixelizationContext.superPixels.data() << " has " << siz << " associated pixels." << std::endl;
+        }
+    }
+
+
+    void DrawAssociationMap(std::vector<uint>& associations) {
+        cv::Mat associationMap(_pixelizationContext.sourceMat.rows, _pixelizationContext.sourceMat.cols, CV_8UC3);
+        
+        for (int r = 0; r < associationMap.rows; r++){
+            for (int c = 0; c < associationMap.cols; c++){
+                int flatIdx = c + r * associationMap.cols;
+                int size = associations.size();
+                uint associationIdx = associations[flatIdx];
+
+ 
+
+                SuperPixel& sPixel = _pixelizationContext.superPixels[associationIdx];
+                associationMap.at<cv::Vec3b>(r, c) = cv::Vec3b(
+                    (unsigned char)(sPixel.paletteColor[0] * (255.0/100.0)), 
+                    (unsigned char)(sPixel.paletteColor[1]  - 128),
+                    (unsigned char)(sPixel.paletteColor[2] - 128)
+                );
+            }
+        }
+
+        cv::Mat rgbOutput(_pixelizationContext.sourceMat.rows, _pixelizationContext.sourceMat.cols, CV_8UC3);
+        cv::cvtColor(associationMap, rgbOutput, cv::COLOR_Lab2BGR);
+
+        cv::Mat scaledOutput(_pixelizationContext.sourceMat.rows / 2, _pixelizationContext.sourceMat.cols / 2, CV_8UC3);
+        cv::resize(rgbOutput, scaledOutput, scaledOutput.size(), 0, 0, cv::INTER_NEAREST);
+
+        cv::imshow("Association Map", scaledOutput);
+        cv::waitKey(0);
     }
 
 
@@ -64,22 +108,27 @@ namespace Pixelizer {
     // >;
 
     static const std::string kernelSource = R"(
-        void kernel AssociatePixelsToSuperPixel(global const float3* sourceMat, global const float3* superPixelColors, global const float2* superPixelPositions, global uint* associations, float2 N, float2 M, float diffCoeff) {
+        void kernel AssociatePixelsToSuperPixel(global const float* sourceMat, global const float* superPixelColors, global const float* superPixelPositions, global uint* associations, float2 M, float2 N, float diffCoeff) {
             int cIn = get_global_id(0);
             int rIn = get_global_id(1);
 
 
-            int flatIdx = cIn + rIn * (int)N.x;
+            int flatIdx = cIn + rIn * (int)M.x;
 
             //Ensure non-encroachment
-            if(rIn < N.y && cIn < N.x) {
-                float3 dPixel = sourceMat[flatIdx];
+            if(rIn < M.y && cIn < M.x) {
+                float3 dPixel = vload3(flatIdx, sourceMat);
 
                 float minCost = INFINITY;
                 uint minSuperPixelIdx = 0;
-                for(int i = 0; i < M.x * M.y; i++) {
-                    float3 colorDiff = superPixelColors[i] - dPixel;
-                    float2 posDiff = superPixelPositions[i] - convert_float2((int2)(cIn, rIn));
+                for(int i = 0; i < N.x * N.y; i++) 
+                {
+
+                    float3 spColor = vload3(i, superPixelColors);
+                    float2 spPos = vload2(i, superPixelPositions);
+
+                    float3 colorDiff = spColor - dPixel;
+                    float2 posDiff = spPos - convert_float2((int2)(cIn, rIn));
 
                     float3 color = colorDiff * colorDiff;
                     float2 pos = posDiff * posDiff;
@@ -142,9 +191,9 @@ namespace Pixelizer {
 
         //Regular float buffer since image is in CIELAB format. 
         // Epxlicit size of float4 
-        cl::Buffer source_d(context, CL_MEM_READ_ONLY, /*sizeof(_pixelizationContext.sourceMat.data)*/ _pixelizationContext.sourceMat.rows * _pixelizationContext.sourceMat.cols * sizeof(cl_float4));
+        cl::Buffer source_d(context, CL_MEM_READ_ONLY, /*sizeof(_pixelizationContext.sourceMat.data)*/ _pixelizationContext.sourceMat.rows * _pixelizationContext.sourceMat.cols * _pixelizationContext.sourceMat.elemSize());
         // This could be an image buffer since its not in LAB, but idk
-        cl::Buffer output_d(context, CL_MEM_WRITE_ONLY, sizeof(uint) * _inputSettings.hOut * _inputSettings.wOut);
+        cl::Buffer output_d(context, CL_MEM_WRITE_ONLY, sizeof(uint) * _pixelizationContext.sourceMat.rows * _pixelizationContext.sourceMat.cols);
 
 
         size_t colorsSize = _pixelizationContext.superPixels.size() * sizeof(float) * NUM_COLORS_PER_SUPERPIXEL;
@@ -201,6 +250,7 @@ namespace Pixelizer {
 
 
 
+    int AssociateCount = 0;
     // Associate pixels to superpixels using OpenCL 
     void AssociatePixelsToSuperPixel() { 
         // Initialize OpenCL  devices
@@ -216,9 +266,6 @@ namespace Pixelizer {
         _algCtx->queue.enqueueWriteBuffer(_algCtx->colors_d, CL_TRUE, 0, colors_h.size() * sizeof(float), colors_h.data());
         _algCtx->queue.enqueueWriteBuffer(_algCtx->positions_d, CL_TRUE, 0, positions_h.size() * sizeof(float), positions_h.data());
 
-
-        // MOVE CONSTANT INPUT/OUTPUT TO DEDICATED STARTUP FUNCTION since it only needs to be done once
-        // Not sure if it will copy the data or simply point to it 
 
         // Change to be non-blocking later
 
@@ -239,10 +286,16 @@ namespace Pixelizer {
         //     _pixelizationContext.differenceCoeff
         // ).wait();
         
-        std::vector<uint> output_h(_inputSettings.hOut * _inputSettings.wOut);
-        _algCtx->queue.enqueueReadBuffer(_algCtx->output_d, CL_TRUE, 0, sizeof(uint) * _inputSettings.hOut * _inputSettings.wOut, output_h.data());
-
+        std::vector<uint> output_h(_pixelizationContext.sourceMat.rows * _pixelizationContext.sourceMat.cols);
+        _algCtx->queue.enqueueReadBuffer(_algCtx->output_d, CL_TRUE, 0, sizeof(uint) * _pixelizationContext.sourceMat.rows * _pixelizationContext.sourceMat.cols, output_h.data());
+        // if(AssociateCount % 10 == 0){
+        //     DrawAssociationMap(output_h);
+        // }
         AssignPixels(output_h);
+
+
+
+        AssociateCount++;
         //Some Algo to process output here
     } 
 } 
